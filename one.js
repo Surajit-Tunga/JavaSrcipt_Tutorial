@@ -36,3 +36,13 @@ For Edge Chakra
 
 
 */
+
+// Sample codes:
+
+// to print
+
+console.log("hello");
+
+// to create a pop up alert 
+
+alert("this is a alert")
