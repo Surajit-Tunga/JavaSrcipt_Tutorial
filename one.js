@@ -47,3 +47,9 @@ console.log("hello");
 
 alert("this is a alert")
 
+// DOM manupulation 
+
+function myclick() {
+            document.getElementById("para").innerHTML='Text Changed'; // DOM 
+            document.body.style.backgroundColor='black';
+        }
