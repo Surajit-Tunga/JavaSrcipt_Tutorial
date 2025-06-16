@@ -217,3 +217,16 @@ function getsum(a,b) {
 let ans=getsum(5,10);
 console.log(ans);  // 15
 
+// loops: Code that runs multiple time based on condition
+
+// while loop:
+
+while (condition) {
+    // statement
+}
+
+let count=0; // initialization 
+while (count<10) {  // condition
+    console.log(count); //satement
+    count=count+1; //update
+}
