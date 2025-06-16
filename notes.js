@@ -155,3 +155,13 @@ eg. console.log(4==4);  -----true.
 
 Other: >, <, <=, >=..
 */
+
+// if-else syntex:
+
+let age = 18;
+
+if (age>=18) {  // condition (.......)
+    console.log ("You are an Adult");  // statement {......}
+} else {
+     console.log ("You are not an Adult");
+}
