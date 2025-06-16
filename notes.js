@@ -62,3 +62,16 @@ function myclick() {
 var a ="hello";
 let b=9;
 let sms="welcome";
+
+//to print a variable
+
+console.log(a);
+
+// opretion with variable:
+
+let num=20;
+
+console.log(num+2)  // 22
+
+num *=2  //40
+num-= 5 //15
