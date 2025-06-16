@@ -3,6 +3,5 @@ function myclick() {
             document.body.style.backgroundColor='black';
         }
 
-// Arithmetic Operator:
-// +,-,*,*,%
+
 

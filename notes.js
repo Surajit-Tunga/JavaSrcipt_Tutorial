@@ -53,3 +53,12 @@ function myclick() {
             document.getElementById("para").innerHTML='Text Changed'; // DOM 
             document.body.style.backgroundColor='black';
         }
+
+// Arithmetic Operator:
+// +,-,*,*,%
+
+// Variable: Used to Store Data
+
+var a ="hello";
+let b=9;
+let sms="welcome";
