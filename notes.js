@@ -165,3 +165,26 @@ if (age>=18) {  // condition (.......)
 } else {
      console.log ("You are not an Adult");
 }
+
+// Logical Operator:
+// AND (&&): all condition must be true for output true
+
+let agee=25 ;
+let hasDrivenLisence= true;
+
+if (age>=18 && hasDrivenLisence) {
+    console.log("Can Drive");
+} else {
+    console.log ("cant Drive");
+}
+//  OR (||): only one condiation must be true for true output
+
+let day="Saturday";
+if (day==="Saturday" || day==="Sunday") {
+    console.log("weekend");
+} else {
+    console.log("Week Day");
+}
+//  NOT (!): Inverts the boolean value of condition
+
+console.log(!true); // false
