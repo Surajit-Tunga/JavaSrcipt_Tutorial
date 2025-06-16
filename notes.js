@@ -188,3 +188,18 @@ if (day==="Saturday" || day==="Sunday") {
 //  NOT (!): Inverts the boolean value of condition
 
 console.log(!true); // false
+
+
+// Functions: Blocks of reusable code.
+
+// Function Defination:
+function myfunctionName() {
+    //------statement 
+}
+
+// function call:
+
+myfunctionName();
+
+
+
