@@ -116,7 +116,7 @@ String:
 // Lets declaree a String:
 
 let str1="hello";
-let str2='world';
+let str2=' world';
 let str3=`!!`;
 
-console.log(str1+str2+str3); // hello world !!
+console.log(str1+str2+str3); // hello world!!
