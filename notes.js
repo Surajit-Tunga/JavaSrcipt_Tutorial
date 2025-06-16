@@ -145,6 +145,9 @@ typeof 2  // number
 
 /* Comparison Operator: 
 == Checks value equality.
+
+eg. console.log(4==4);  -----true.
+
 === checks value and type equality both.
 
 != Checks value inequality.
