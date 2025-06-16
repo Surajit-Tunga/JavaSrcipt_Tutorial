@@ -91,5 +91,17 @@ num++; // +1
 3.const: Declares block-scoped variables that cannot be reassigned after their initial assignment.
 */
 
+/* Datatypes in JS:
 
+2 type : Primitive & Non Primitive
+
+Primitive: String, Number, Boolean, Null, Undefined.
+--> Primitive type in Js is the basic Data types that are not objects and have no methods. and they are immutable, means we cannot change their value.
+
+I. Number:  Integer (Negative no, whole num), Float (3.14)
+NonPrimitive: Object, Array, Function.
+
+1.23.29
+
+*/
 
