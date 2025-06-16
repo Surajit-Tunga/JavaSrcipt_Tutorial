@@ -73,5 +73,11 @@ let num=20;
 
 console.log(num+2)  // 22
 
+num = num+5 //25  by considering initial value of num !!!
+
+//shorthand 
+
 num *=2  //40
 num-= 5 //15
+
+
