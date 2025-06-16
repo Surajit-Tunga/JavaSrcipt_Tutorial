@@ -131,3 +131,8 @@ console.log(str4);// this is liked by 100 people. for this we use `` this symbol
 
 let doihavemoney= true; // if we write "true" then its a string.
 
+// Null: defined that value is null;
+
+
+// undefined:
+var username; // this variable has undefined value, no value is assigned.
