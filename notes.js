@@ -208,5 +208,11 @@ function sum(a,b) {
 }
 sum(5,10); // 15
 
+// return:
 
+function getsum(a,b) {
+    return(a+b);
+}
+let ans=sum(5,10);
+console.log(ans);  // 15
 
