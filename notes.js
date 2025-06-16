@@ -213,6 +213,6 @@ sum(5,10); // 15
 function getsum(a,b) {
     return(a+b);
 }
-let ans=sum(5,10);
+let ans=getsum(5,10);
 console.log(ans);  // 15
 
