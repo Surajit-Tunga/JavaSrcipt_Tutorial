@@ -131,8 +131,24 @@ console.log(str4);// this is liked by 100 people. for this we use `` this symbol
 
 let doihavemoney= true; // if we write "true" then its a string.
 
-// Null: defined that value is null;
+// Null: defined that value is null; its type is object 
 
 
 // undefined:
 var username; // this variable has undefined value, no value is assigned.
+
+// typeof Operator: tells about the datatype 
+//syntex
+
+
+typeof 2  // number
+
+/* Comparison Operator: 
+== Checks value equality.
+=== checks value and type equality both.
+
+!= Checks value inequality.
+!== checks value and type equality both.
+
+Other: >, <, <=, >=..
+*/
