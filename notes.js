@@ -101,7 +101,22 @@ Primitive: String, Number, Boolean, Null, Undefined.
 I. Number:  Integer (Negative no, whole num), Float (3.14)
 NonPrimitive: Object, Array, Function.
 
-1.23.29
+
+
 
 */
+/*
+String: 
+-->It Holds textual data, anything from a single chracter to a paragraph.
+--> Can Be Defined using Single or double quotes or backticks ``.
+--> We can concatenate Strings using Operator: 
+    eg. "Hello" + "World"= "Hello World"
+*/
 
+// Lets declaree a String:
+
+let str1="hello";
+let str2='world';
+let str3=`!!`;
+
+console.log(str1+str2+str3); // hello world !!
