@@ -196,12 +196,16 @@ console.log(!true); // false
 function myfunctionName() {
     //------statement 
 }
-function sum(a,b) {
-    console.log(a+b)
-}
+
 // function call:
 
 myfunctionName();
+
+
+// we can define function with variable
+function sum(a,b) {
+    console.log(a+b);
+}
 sum(5,10); // 15
 
 
