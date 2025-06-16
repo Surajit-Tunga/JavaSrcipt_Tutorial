@@ -202,7 +202,7 @@ function myfunctionName() {
 myfunctionName();
 
 
-// we can define function with variable
+// we can define function with parameters
 function sum(a,b) {
     console.log(a+b);
 }
@@ -212,6 +212,7 @@ sum(5,10); // 15
 
 function getsum(a,b) {
     return(a+b);
+    // statement after return will never execute
 }
 let ans=getsum(5,10);
 console.log(ans);  // 15
