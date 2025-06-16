@@ -196,10 +196,13 @@ console.log(!true); // false
 function myfunctionName() {
     //------statement 
 }
-
+function sum(a,b) {
+    console.log(a+b)
+}
 // function call:
 
 myfunctionName();
+sum(5,10); // 15
 
 
 
