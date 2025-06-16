@@ -79,5 +79,17 @@ num = num+5 //25  by considering initial value of num !!!
 
 num *=2  //40
 num-= 5 //15
+num++; // +1
+
+
+/*  var, let, const
+
+1. var: Declares variables with function or global scope and allows re-declaration and updates within the same scope.
+
+2.let: Declares variables with block scope, allowing updates but not re-declaration within the same block.
+
+3.const: Declares block-scoped variables that cannot be reassigned after their initial assignment.
+*/
+
 
 
