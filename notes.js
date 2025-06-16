@@ -104,6 +104,7 @@ NonPrimitive: Object, Array, Function.
 
 
 
+
 */
 /*
 String: 
@@ -120,3 +121,13 @@ let str2=' world';
 let str3=`!!`;
 
 console.log(str1+str2+str3); // hello world!!
+
+let nolike=100;
+let str4=`this is liked by ${nolike} people`; 
+
+console.log(str4);// this is liked by 100 people. for this we use `` this symbol. with "" or '' it is not possible.
+
+// Booleans : True / false
+
+let doihavemoney= true; // if we write "true" then its a string.
+
