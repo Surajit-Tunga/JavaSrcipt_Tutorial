@@ -406,3 +406,48 @@ let foods = ['rice', 'dal', 'chiken'];
     console.log(food);
  })
 ```
+
+# JavaScript Array Methods & Arrow Functions
+
+## Array Methods
+
+- **push**: Adds elements to the end of the array.
+- **pop**: Removes the last element from the array.
+- **shift**: Removes the first element from the array.
+- **unshift**: Adds elements to the front of the array.
+- **splice**: Adds or removes elements at a specific index.
+- **toString**: Converts the array to a string.
+
+...many more array methods exist!
+
+### Example Usage
+
+```javascript
+let arr = [1, 2, 3];
+arr.push(4);      // [1, 2, 3, 4]
+arr.pop();        // [1, 2, 3]
+arr.shift();      // [2, 3]
+arr.unshift(0);   // [0, 2, 3]
+arr.splice(1, 1); // [0, 3]
+arr.toString();   // "0,3"
+```
+
+## Arrow Functions
+
+A concise way to write anonymous functions.
+
+```javascript
+let sum = (a, b) => {
+  return a + b;
+}
+
+let sum2 = (a, b) => a + b;
+
+let sqr = num => num * num;
+```
+
+Arrow functions are especially useful for short callbacks and functional programming.
+
+---
+
+For more information, read the [JavaScript documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
