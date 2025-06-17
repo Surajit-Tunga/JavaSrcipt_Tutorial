@@ -43,6 +43,10 @@ For Edge Chakra
 
 console.log("hello");
 
+// to take input:
+
+prompt('Please Enter Your Name:');
+
 // to create a pop up alert 
 
 alert("this is a alert")
@@ -240,3 +244,22 @@ for(initialization; condition; update) {
 for (let c=0; c<10; c++){
     console.log(`${c+1}`)
 }
+
+
+// Callback: It is Function passed as an argument to another function, which is then invoked inside the outer function to complete some action.
+//Syntax:
+
+function greeting(name) {
+    console.log('hello '+name);
+}
+
+// Function that takes callbacks:
+
+function userinput(Callback) {
+    var name= prompt('Please Enter Your Name:');
+    Callback(name);
+}
+
+// cal the function with callback:
+
+userinput(greeting);
