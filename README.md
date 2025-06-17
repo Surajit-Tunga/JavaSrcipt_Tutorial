@@ -407,7 +407,7 @@ let foods = ['rice', 'dal', 'chiken'];
  })
 ```
 
-
+---
 
 
 ## Array Methods
@@ -432,6 +432,7 @@ arr.unshift(0);   // [0, 2, 3]
 arr.splice(1, 1); // [0, 3]
 arr.toString();   // "0,3"
 ```
+---
 
 ## Arrow Functions
 
