@@ -189,10 +189,10 @@ console.log(4 == 4); // true
 ```js
 let age = 18;
 
-if (age >= 18) {
-    console.log("You are an Adult");
+if (age>=18) {  // condition (.......)
+    console.log ("You are an Adult");  // statement {......}
 } else {
-    console.log("You are not an Adult");
+     console.log ("You are not an Adult");
 }
 ```
 
@@ -262,18 +262,26 @@ Run code multiple times based on condition.
 ### While Loop
 
 ```js
-let count = 0;
-while (count < 10) {
-    console.log(count);
-    count = count + 1;
+while (condition) {
+    // statement
+}
+
+let count=0; // initialization 
+while (count<10) {  // condition
+    console.log(count); //satement
+    count=count+1; //update
 }
 ```
 
 ### For Loop
 
 ```js
-for (let c = 0; c < 10; c++) {
-    console.log(`${c + 1}`);
+for(initialization; condition; update) {
+    // satement
+}
+
+for (let c=0; c<10; c++){
+    console.log(`${c+1}`)
 }
 ```
 
@@ -285,15 +293,19 @@ A function passed as an argument to another function, invoked inside the outer f
 
 ```js
 function greeting(name) {
-    console.log('hello ' + name);
+    console.log('hello '+name);
 }
 
-function userInput(callback) {
-    var name = prompt('Please Enter Your Name:');
-    callback(name);
+// Function that takes callbacks:
+
+function userinput(Callback) {
+    var name= prompt('Please Enter Your Name:');
+    Callback(name);
 }
 
-userInput(greeting);
+// cal the function with callback:
+
+userinput(greeting);
 ```
 
 ---
