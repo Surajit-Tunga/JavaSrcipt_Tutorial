@@ -316,3 +316,23 @@ console.log(product)  // gives the full object
  foods.forEach(function(food){
     console.log(food);
  })
+
+
+ /*Array methods: 
+  push, pop: Adds or removes to the end.
+ shift, unshift: Adds or removes to the front. 
+ splice:Adds or removes element.
+ toString: convert to string
+ ....manymore
+ */
+
+ // Arrow Function: a concise way to write anonymous function.
+
+ let sum = (a,b) => {
+    return(a+b);
+ }
+
+ let sum2 = (a,b) => a+b;
+ 
+
+ let sqr = num => num*num;
