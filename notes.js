@@ -306,3 +306,6 @@ console.log(product)  // gives the full object
 
  console.log(myarr[0])  //1
  console.log(myarr[4].company)  // Apple
+
+ // For-each loop:
+ 
