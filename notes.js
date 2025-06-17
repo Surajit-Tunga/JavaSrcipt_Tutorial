@@ -263,3 +263,10 @@ function userinput(Callback) {
 // cal the function with callback:
 
 userinput(greeting);
+
+// Anonymous Function: Functions without name. Used as argument to other funvtion or assign to a variable.
+
+// Syntex:
+(function(){
+    //body
+})
