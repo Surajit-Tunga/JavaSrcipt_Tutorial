@@ -396,4 +396,13 @@ You can use the `forEach` loop to iterate over arrays.
 myarr.forEach(function(element, index) {
     console.log(index, element);
 });
+
+// example:
+let foods = ['rice', 'dal', 'chiken'];
+
+ // if we want to print every element of food:
+
+ foods.forEach(function(food){
+    console.log(food);
+ })
 ```

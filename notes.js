@@ -309,3 +309,10 @@ console.log(product)  // gives the full object
 
  // For-each loop:
  
+ let foods = ['rice', 'dal', 'chiken'];
+
+ // if we want to print every element of food:
+
+ foods.forEach(function(food){
+    console.log(food);
+ })
