@@ -275,7 +275,7 @@ userinput(greeting);
 // Syntex:
 
 let product ={
-    company: 'Apple',
+    company: 'Apple',  // key: value,
     item: 'Phone',
     price: 10000
 };   // ; is must here.
