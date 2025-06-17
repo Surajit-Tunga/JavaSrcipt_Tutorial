@@ -407,7 +407,8 @@ let foods = ['rice', 'dal', 'chiken'];
  })
 ```
 
-# JavaScript Array Methods & Arrow Functions
+
+
 
 ## Array Methods
 
