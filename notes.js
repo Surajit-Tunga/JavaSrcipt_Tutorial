@@ -280,6 +280,12 @@ let product ={
     price: 10000
 };   // ; is must here.
 
+
+console.log(product)  // gives the full object
+// to access:
+//dot notation:
 console.log(product.company)  // Apple
+// using []:
+console.log(product['company']) // Apple
 console.log(product)  // gives the full object
  
