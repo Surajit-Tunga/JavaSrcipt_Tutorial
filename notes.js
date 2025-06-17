@@ -287,5 +287,9 @@ console.log(product)  // gives the full object
 console.log(product.company)  // Apple
 // using []:
 console.log(product['company']) // Apple
+
 console.log(product)  // gives the full object
- 
+
+// delete/insert:
+ delete product.price; // delete the price
+ product.cost=20000; // add cost to the product
