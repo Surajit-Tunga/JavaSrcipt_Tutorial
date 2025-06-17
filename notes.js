@@ -293,3 +293,16 @@ console.log(product)  // gives the full object
 // delete/insert:
  delete product.price; // delete the price
  product.cost=20000; // add cost to the product
+
+ // Array: List of Values. starts with 0 index. it can hold any value.
+ // type of array is object
+
+ // syntex:
+
+ let myarr=[1,'a',null, true , {company: 'Apple'} ];
+ typeof(myarr) // object
+
+ // to access: arry[index]
+
+ console.log(myarr[0])  //1
+ console.log(myarr[4].company)  // Apple
