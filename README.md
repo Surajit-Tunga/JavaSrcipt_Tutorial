@@ -321,3 +321,79 @@ Functions without a name. Used as arguments to other functions or assigned to a 
 ```
 
 ---
+
+## Objects
+
+Objects are used to group multiple values together in key-value pairs.
+
+### Syntax
+
+```javascript
+let product = {
+    company: 'Apple',  // key: value,
+    item: 'Phone',
+    price: 10000
+}; // ; is must here.
+```
+
+### Accessing Object Properties
+
+- **Dot notation:**
+  ```javascript
+  console.log(product.company);  // Output: Apple
+  ```
+- **Bracket notation:**
+  ```javascript
+  console.log(product['company']); // Output: Apple
+  ```
+
+- **Full object:**
+  ```javascript
+  console.log(product);  // Displays the full object
+  ```
+
+### Modifying Objects
+
+- **Delete a property:**
+  ```javascript
+  delete product.price; // Deletes the price property
+  ```
+- **Add a property:**
+  ```javascript
+  product.cost = 20000; // Adds 'cost' property to the object
+  ```
+
+---
+
+## Arrays
+
+Arrays are lists of values. They start with a 0 index and can hold any type of value.
+
+> The type of an array in JavaScript is `object`.
+
+### Syntax
+
+```javascript
+let myarr = [1, 'a', null, true, { company: 'Apple' }];
+console.log(typeof(myarr)); // Output: object
+```
+
+### Accessing Array Elements
+
+- **Access by index:**
+  ```javascript
+  console.log(myarr[0]); // Output: 1
+  console.log(myarr[4].company); // Output: Apple
+  ```
+
+---
+
+## For-Each Loop
+
+You can use the `forEach` loop to iterate over arrays.
+
+```javascript
+myarr.forEach(function(element, index) {
+    console.log(index, element);
+});
+```
