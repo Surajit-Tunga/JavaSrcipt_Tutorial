@@ -270,3 +270,16 @@ userinput(greeting);
 (function(){
     //body
 })
+
+// Objects:  Group of multple values together in key-value pairs.
+// Syntex:
+
+let product ={
+    company: 'Apple',
+    item: 'Phone',
+    price: 10000
+};   // ; is must here.
+
+console.log(product.company)  // Apple
+console.log(product)  // gives the full object
+ 
